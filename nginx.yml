@@ -1,0 +1,11 @@
+---
+- hosts: centos
+  tasks:
+    - name: epel_repo
+      yum: name=epel-release 
+    - name: ensure nginx is at the latest version
+      yum: name=nginx state=present
+    - name: start nginx
+      service:
+          name: nginx
+          state: started

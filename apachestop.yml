@@ -1,0 +1,9 @@
+---
+- hosts: centos
+  tasks:
+    - name: stop httpd
+      service:
+          name: httpd
+          state: stopped
+    - name: ensure httpd is not installed
+      yum: name=httpd state=absent                                           
