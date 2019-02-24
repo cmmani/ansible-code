@@ -1,0 +1,28 @@
+git commit -m "ansibke code"
+  224  git remote add origin https://github.com/cmmani/ansible-code.git
+  225  git push origin master
+  226  git push -f origin master
+  
+  
+  
+  git add .
+  248  git commit -m "ansibke code"
+  249  git config --global user.name "cmmani"
+  250  git config --global user.email muthudevopsengineer@gmail.com
+  251  git add .
+  252  git commit -m "ansibke code"
+  253  git commit -m "ansible code"
+
+
+
+git remote add origin git@github.com:cmmani/ansible-code.git
+  272  git push origin master
+  273  git push -u origin master
+  274  git push -f origin master
+  275  cd
+  276  mkdir git
+  277  cd git/
+  278  git init
+  279  git pull origin master 
+  280  git pull -f  origin master 
+
